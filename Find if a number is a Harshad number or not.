@@ -1,0 +1,14 @@
+n = int(input("Enter a number = "))
+sum = 0
+c = n
+while n!=0 :
+    k = n%10
+    sum = sum + k
+    n = n//10
+    
+print("The sum of digits is ",sum)
+
+if c%sum==0 :
+     print(c," is a Harshad number")
+else :
+     print(c," is not a Harshad number")
